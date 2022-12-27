@@ -1,0 +1,105 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+    /* Extra large device */
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+    /* Large device */
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    /* Medium device */
+}
+
+@media (max-width: 767.98px) {
+    .sidenav .nav-inner {
+        display: none;
+    }
+
+    .sidenav .main-content {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .dashboard-inner-nav .mobile-hidden-bar {
+        display: none;
+    }
+
+    .dashboard-inner-nav .dashboard-inner-nav {
+        padding: 4px 8px;
+    }
+
+    #mobile-menu {
+        display: block;
+    }
+
+    .common-table-prnt {
+        overflow-x: scroll;
+    }
+
+    .common-table-child table {
+        min-width: 1200px;
+    }
+
+    .admin_main_list .thead_icon,
+    .product_table .head_icon {
+        display: none;
+    }
+
+    /* Medium common device */
+}
+
+@media (min-width: 381px) and (max-width: 575.98px) {
+    #mobile-menu .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+        --bs-offcanvas-width: 310px;
+    }
+
+
+    /* Small device */
+}
+
+@media (max-width: 575.98px) {
+
+    .scene {
+        width: 400px;
+    }
+
+    .carousel__cell {
+        width: 400px;
+        height: 85%;
+        left: 42px;
+        top: 40px;
+        line-height: 25px;
+        font-size: 19px;
+    }
+
+    .ressMain {
+        margin-left: -272px;
+    }
+
+    .ress {
+        height: 28px;
+        width: 96px;
+    }
+
+    .ress p {
+        font-size: 14px;
+    }
+
+    .ress img {
+        height: 23px;
+        border-radius: 15px;
+    }
+    /* Small common device */
+}
+
+@media (max-width: 380.98px) {
+    #mobile-menu .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+        --bs-offcanvas-width: 260px;
+    }
+}

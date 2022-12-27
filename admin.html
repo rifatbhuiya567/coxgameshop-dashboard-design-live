@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Cox Gameshop</title>
+    <!-- Title -->
+
+    <link rel="icon" href="images/fav-icon.png">
+    <!-- Favicon -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Font family -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Icons -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Bootstrap 5.2 -->
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Main style sheet -->
+    
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Responsive style sheet -->
+
+</head>
+<body>
+    <!-- Inner body start -->
+    <div id="mySidenav" class="sidenav">
+        <!-- Navbar area start -->
+        <nav class="nav-inner">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="images/logo.png" class="img-fluid" alt="logo"/>
+                </a>
+            </div>
+            <div class="main-nav">
+                <ul>
+                    <li>
+                        <a href="./index.html">
+                            <span><i class="fa-solid fa-desktop"></i></span>
+                            <span class="nav-action">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="hidden-menu-parent">
+                        <a class="drop-relative">
+                            <span><i class="fa-solid fa-user"></i></span>
+                            <span class="nav-action">user</span>
+                            <span class="drop-child">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </span>
+                        </a>
+                        <ul class="hidden-menu">
+                            <li>
+                                <a href="./admin.html" class="active">
+                                    <span><i class="fa-solid fa-crown"></i></span>
+                                    <span class="nav-action">admin</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./user.html">
+                                    <span><i class="fa-solid fa-user"></i></span>
+                                    <span class="nav-action">user</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="hidden-menu-parent-two">
+                        <a class="drop-relative">
+                            <span><i class="fa-solid fa-message"></i></span>
+                            <span class="nav-action">order message</span>
+                            <span class="drop-child">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </span>
+                        </a>
+                        <ul class="hidden-menu-two">
+                            <li>
+                                <a href="./message.html">
+                                    <span><i class="fa-solid fa-message"></i></span>
+                                    <span class="nav-action">message</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./new_msg.html">
+                                    <span><i class="bi bi-envelope-plus-fill"></i></span>
+                                    <span class="nav-action">add new message</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="hidden-menu-parent-there">
+                        <a class="drop-relative">
+                            <span><i class="fa-solid fa-money-bill-trend-up"></i></span>
+                            <span class="nav-action">topup</span>
+                            <span class="drop-child">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </span>
+                        </a>
+                        <ul class="hidden-menu-there">
+                            <li>
+                                <a href="./topup_product.html">
+                                    <span><i class="fa-solid fa-bolt"></i></span>
+                                    <span class="nav-action">top product</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./topup_package.html">
+                                    <span><i class="fa-solid fa-border-all"></i></span>
+                                    <span class="nav-action">topup packages</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="hidden-menu-parent-four">
+                        <a class="drop-relative">
+                            <span><i class="fas fa-user-shield"></i></span>
+                            <span class="nav-action">admin performance</span>
+                            <span class="drop-child">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </span>
+                        </a>
+                        <ul class="hidden-menu-four">
+                            <li>
+                                <a href="./order_status.html">
+                                    <span><i class="fa-solid fa-border-all"></i></span>
+                                    <span class="nav-action">order status</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./shell_status.html">
+                                    <span><i class="fa-solid fa-border-all"></i></span>
+                                    <span class="nav-action">shell status</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="fa-solid fa-wallet"></i></span>
+                            <span class="nav-action">add wallet</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./autometic_add_walet.html">
+                            <span><i class="fa-solid fa-wallet"></i></span>
+                            <span class="nav-action">automatic add wallet</span>
+                        </a>
+                    </li>
+                    <li class="hidden-menu-parent-five">
+                        <a class="drop-relative">
+                            <span><i class="fa-solid fa-border-all"></i></span>
+                            <span class="nav-action">topup order</span>
+                            <span class="drop-child">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </span>
+                        </a>
+                        <ul class="hidden-menu-five">
+                            <li>
+                                <a href="./topup_order.html">
+                                    <span><i class="fa-solid fa-border-all"></i></span>
+                                    <span class="nav-action">order</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./topup_admin_order.html">
+                                    <span><i class="fa-solid fa-border-all"></i></span>
+                                    <span class="nav-action">admin order</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./banner.html">
+                            <span><i class="fa-regular fa-image"></i></span>
+                            <span class="nav-action">banner</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./notice.html">
+                            <span><i class="fa-solid fa-bullhorn"></i></span>
+                            <span class="nav-action">notice</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="fa-regular fa-id-badge"></i></span>
+                            <span class="nav-action">profile</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navbar area end -->
+
+        <!-- Content area start -->
+        <div class="main-content">
+            <!-- Header area start -->
+            <header class="dashboard-inner-nav">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-2 col-6 col-md-4">
+                        <div class="openbar">
+                            <a>
+                                <i class="fa-solid fa-bars mobile-hidden-bar"></i>
+                            </a>
+                            <!-- Mobile menu start -->
+                            <nav id="mobile-menu">
+                                <button class="btn btn-primary mobile-menu-bar" type="button" data-bs-toggle="offcanvas" data-bs-target="#myMobile-menu" aria-controls="myMobile-menu">
+                                    <i class="fa-solid fa-bars "></i>
+                                </button>
+                                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="myMobile-menu" aria-labelledby="myMobile-menuLabel">
+                                    <div class="offcanvas-header mobile-menu-logo">
+                                        <div class="logo">
+                                            <a href="./index.html">
+                                                <img src="images/logo.png" class="img-fluid" alt="logo"/>
+                                            </a>
+                                        </div>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <div class="mobile-nav">
+                                            <ul>
+                                                <li>
+                                                    <a href="./index.html">
+                                                        <span><i class="fa-solid fa-desktop"></i></span>
+                                                        <span class="nav-action">Dashboard</span>
+                                                    </a>
+                                                </li>
+                                                <li class="hidden-menu-parent">
+                                                    <a class="drop-relative">
+                                                        <span><i class="fa-solid fa-user"></i></span>
+                                                        <span class="nav-action">user</span>
+                                                        <span class="drop-child">
+                                                            <i class="fa-solid fa-chevron-down"></i>
+                                                        </span>
+                                                    </a>
+                                                    <ul class="hidden-menu">
+                                                        <li>
+                                                            <a href="./admin.html" class="active">
+                                                                <span><i class="fa-solid fa-crown"></i></span>
+                                                                <span class="nav-action">admin</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="./user.html">
+                                                                <span><i class="fa-solid fa-user"></i></span>
+                                                                <span class="nav-action">user</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="hidden-menu-parent-two">
+                                                    <a class="drop-relative">
+                                                        <span><i class="fa-solid fa-message"></i></span>
+                                                        <span class="nav-action">order message</span>
+                                                        <span class="drop-child">
+                                                            <i class="fa-solid fa-chevron-down"></i>
+                                                        </span>
+                                                    </a>
+                                                    <ul class="hidden-menu-two">
+                                                        <li>
+                                                            <a href="./message.html">
+                                                                <span><i class="fa-solid fa-message"></i></span>
+                                                                <span class="nav-action">message</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="./new_msg.html">
+                                                                <span><i class="bi bi-envelope-plus-fill"></i></span>
+                                                                <span class="nav-action">add new message</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="hidden-menu-parent-there">
+                                                    <a class="drop-relative">
+                                                        <span><i class="fa-solid fa-money-bill-trend-up"></i></span>
+                                                        <span class="nav-action">topup</span>
+                                                        <span class="drop-child">
+                                                            <i class="fa-solid fa-chevron-down"></i>
+                                                        </span>
+                                                    </a>
+                                                    <ul class="hidden-menu-there">
+                                                        <li>
+                                                            <a href="./topup_product.html">
+                                                                <span><i class="fa-solid fa-bolt"></i></span>
+                                                                <span class="nav-action">top product</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="./topup_package.html">
+                                                                <span><i class="fa-solid fa-border-all"></i></span>
+                                                                <span class="nav-action">topup packages</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="hidden-menu-parent-four">
+                                                    <a class="drop-relative">
+                                                        <span><i class="fas fa-user-shield"></i></span>
+                                                        <span class="nav-action">admin performance</span>
+                                                        <span class="drop-child">
+                                                            <i class="fa-solid fa-chevron-down"></i>
+                                                        </span>
+                                                    </a>
+                                                    <ul class="hidden-menu-four">
+                                                        <li>
+                                                            <a href="./order_status.html">
+                                                                <span><i class="fa-solid fa-border-all"></i></span>
+                                                                <span class="nav-action">order status</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="./shell_status.html">
+                                                                <span><i class="fa-solid fa-border-all"></i></span>
+                                                                <span class="nav-action">shell status</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span><i class="fa-solid fa-wallet"></i></span>
+                                                        <span class="nav-action">add wallet</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="./autometic_add_walet.html">
+                                                        <span><i class="fa-solid fa-wallet"></i></span>
+                                                        <span class="nav-action">automatic add wallet</span>
+                                                    </a>
+                                                </li>
+                                                <li class="hidden-menu-parent-five">
+                                                    <a class="drop-relative">
+                                                        <span><i class="fa-solid fa-border-all"></i></span>
+                                                        <span class="nav-action">topup order</span>
+                                                        <span class="drop-child">
+                                                            <i class="fa-solid fa-chevron-down"></i>
+                                                        </span>
+                                                    </a>
+                                                    <ul class="hidden-menu-five">
+                                                        <li>
+                                                            <a href="./topup_order.html">
+                                                                <span><i class="fa-solid fa-border-all"></i></span>
+                                                                <span class="nav-action">order</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="./topup_admin_order.html">
+                                                                <span><i class="fa-solid fa-border-all"></i></span>
+                                                                <span class="nav-action">admin order</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="./banner.html">
+                                                        <span><i class="fa-regular fa-image"></i></span>
+                                                        <span class="nav-action">banner</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="./notice.html">
+                                                        <span><i class="fa-solid fa-bullhorn"></i></span>
+                                                        <span class="nav-action">notice</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <span><i class="fa-regular fa-id-badge"></i></span>
+                                                        <span class="nav-action">profile</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                            <!-- Mobile menu end -->
+                            <span class="brand-name">Cox Gameshop</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6  col-md-8">
+                        <div class="user-content">
+                            <form>
+                                <div class="d-flex align-items-center justify-content-end">
+                                    <div class="search-bar">
+                                        <input type="text" placeholder="Search here...">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </div>
+                                    <div class="user-menu">
+                                        <div class="user-img">
+                                            <img src="images/user-img.jpg" class="img-fluid" alt="user-img"/>
+                                        </div>
+                                        <div class="user-main-menu">
+                                            <ul>
+                                                <li>
+                                                    <a href="./index.html" class="a-active">Profile</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/login-form.html">log out</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- Header area end -->
+
+            <!-- admin list area start -->
+            <div class="admin_list">
+                <div class="admin_head">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-2">
+                            <h2>Admins</h2>
+                        </div>
+                        <div class="col-lg-2 ">
+                            <div class="admin_btn">
+                                <a href="./admin_form.html">Add new admin</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="admin-list-inner common-table-prnt">
+                    <div class="row">
+                        <div class="col-lg-12 ">
+                            <div class="admin_main_list common-table-child">
+                                <div class="thead_icon">
+                                    <a href="#">
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </a>
+                                </div>
+                                <table cellpadding="0" cellspapcing="0" border="0">
+                                    <thead>
+                                        <tr>
+                                            <th class="first"><span>No :</span></th>
+                                            <th class="sec"><span>first name</span></th>
+                                            <th class="third" ><span>last name</span></th>
+                                            <th class="forth" ><span>username</span></th>
+                                            <th class="five"><span>email</span></th>
+                                            <th class="six"><span>phone</span></th>
+                                            <th class="seven"><span>action</span></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="number"><span>4</span></td>
+                                            <td><span>bayazid</span></td>
+                                            <td><span>bostami</span></td>
+                                            <td><span>Hridoy</span></td>
+                                            <td><span>chakrana@gmail.com</span></td>
+                                            <td><span>+8801645787953</span></td>
+                                            <td>
+                                                <span class="table_inner_btn">
+                                                    <a href="#" class="btn1">Manage Auth Permissson</a>
+                                                    <a href="#" class="btn2">Manage Order Permissson</a>
+                                                    <a href="#" class="btn3">Delete</a>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="number"><span>6</span></td>
+                                            <td><span>bayazid</span></td>
+                                            <td><span>bostami</span></td>
+                                            <td><span>Hridoy</span></td>
+                                            <td><span>chakrana@gmail.com</span></td>
+                                            <td><span>+8801645787953</span></td>
+                                            <td>
+                                                <span class="table_inner_btn">
+                                                    <a href="#" class="btn1">Manage Auth Permissson</a>
+                                                    <a href="#" class="btn2">Manage Order Permissson</a>
+                                                    <a href="#" class="btn3">Delete</a>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="number"><span>7</span></td>
+                                            <td><span>bayazid</span></td>
+                                            <td><span>bostami</span></td>
+                                            <td><span>Hridoy</span></td>
+                                            <td><span>chakrana@gmail.com</span></td>
+                                            <td><span>+8801645787953</span></td>
+                                            <td><span class="table_inner_btn">
+                                                <a href="#" class="btn1">Manage Auth Permissson</a>
+                                                <a href="#" class="btn2">Manage Order Permissson</a>
+                                                <a href="#" class="btn3">Delete</a>
+                                            </span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="number"><span>8</span></td>
+                                            <td><span>bayazid</span></td>
+                                            <td><span>bostami</span></td>
+                                            <td><span>Hridoy</span></td>
+                                            <td><span>chakrana@gmail.com</span></td>
+                                            <td><span>+8801645787953</span></td>
+                                            <td><span class="table_inner_btn">
+                                                <a href="#" class="btn1">Manage Auth Permissson</a>
+                                                <a href="#" class="btn2">Manage Order Permissson</a>
+                                                <a href="#" class="btn3">Delete</a>
+                                            </span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="number"><span>9</span></td>
+                                            <td><span>bayazid</span></td>
+                                            <td><span>bostami</span></td>
+                                            <td><span>Hridoy</span></td>
+                                            <td><span>chakrana@gmail.com</span></td>
+                                            <td><span>+8801645787953</span></td>
+                                            <td><span class="table_inner_btn">
+                                                <a href="#" class="btn1">Manage Auth Permissson</a>
+                                                <a href="#" class="btn2">Manage Order Permissson</a>
+                                                <a href="#" class="btn3">Delete</a>
+                                            </span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="number"><span>10</span></td>
+                                            <td><span>bayazid</span></td>
+                                            <td><span>bostami</span></td>
+                                            <td><span>Hridoy</span></td>
+                                            <td><span>chakrana@gmail.com</span></td>
+                                            <td><span>+8801645787953</span></td>
+                                            <td><span class="table_inner_btn">
+                                                <a href="#" class="btn1">Manage Auth Permissson</a>
+                                                <a href="#" class="btn2">Manage Order Permissson</a>
+                                                <a href="#" class="btn3">Delete</a>
+                                            </span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="number"><span>12</span></td>
+                                            <td><span>bayazid</span></td>
+                                            <td><span>bostami</span></td>
+                                            <td><span>Hridoy</span></td>
+                                            <td><span>chakrana@gmail.com</span></td>
+                                            <td><span>+8801645787953</span></td>
+                                            <td><span class="table_inner_btn">
+                                                <a href="#" class="btn1">Manage Auth Permissson</a>
+                                                <a href="#" class="btn2">Manage Order Permissson</a>
+                                                <a href="#" class="btn3">Delete</a>
+                                            </span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="number"><span>13</span></td>
+                                            <td><span>bayazid</span></td>
+                                            <td><span>bostami</span></td>
+                                            <td><span>Hridoy</span></td>
+                                            <td><span>chakrana@gmail.com</span></td>
+                                            <td><span>+8801645787953</span></td>
+                                            <td><span class="table_inner_btn">
+                                                <a href="#" class="btn1">Manage Auth Permissson</a>
+                                                <a href="#" class="btn2">Manage Order Permissson</a>
+                                                <a href="#" class="btn3">Delete</a>
+                                            </span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="table-btm">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <form>
+                                <div class="user_table_bottom pages-serial-area">
+                                    <div class="user_inner_bottom pages-serial-inner d-flex justify-content-between align-items-center">
+                                      <div class="pages-serial">
+                                        <div class="in-flex">
+                                            <span class="text">
+                                                <a href="#">
+                                                    <i class="fa-solid fa-angle-left"></i>
+                                                    prev
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <span class="text_number"><a href="#">4</a></span>
+                                        <span class="text_number"><a href="#">6</a></span>
+                                        <span class="text_number"><a href="#">8</a></span>
+                                        <div class="in-flex">
+                                            <span class="text">
+                                                <a href="#">
+                                                    next
+                                                    <i class="fa-solid fa-angle-right"></i>
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <div class="blank-input">
+                                            <input type="number" placeholder="Pages">
+                                        </div>
+                                      </div>
+                                        <div class="page_list">
+                                            <span class="l-page">List per page</span>
+                                              <select >
+                                                <option value=""><span>6</span></option>
+                                                <option value=""><span>7</span></option>
+                                                <option value=""><span>8</span></option>
+                                                <option value=""><span>9</span></option>
+                                                <option value=""><span>10</span></option>
+                                              </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- admin list area end -->
+        </div>
+        <!-- Content area end -->
+    </div>
+    <!-- Inner body end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- Bootstrap 5.2 -->
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <!-- Jquery version -->
+    
+    <script src="js/script.js"></script>
+    <!-- Main script sheet -->
+</body>
+</html>
