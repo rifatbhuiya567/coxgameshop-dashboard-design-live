@@ -1,0 +1,455 @@
+@media (min-width: 1200px) and (max-width: 1300.98px) {
+    .common-table-prnt {
+        overflow-x: scroll;
+    }
+
+    .common-table-child table {
+        min-width: 1400px;
+    }
+
+    .admin_main_list .thead_icon,
+    .product_table .head_icon {
+        display: none;
+    }
+
+    .common-form-input input {
+        width: 252px;
+    }
+} 
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .common-table-prnt {
+        overflow-x: scroll;
+    }
+
+    .common-table-child table {
+        min-width: 1400px;
+    }
+
+    .admin_main_list .thead_icon,
+    .product_table .head_icon {
+        display: none;
+    }
+
+    .user_head .head_right input {
+        width: 160px;
+    }
+
+    .common-form-input input {
+        width: 252px;
+    }
+
+    .main_topup_order .topup_order_right input {
+        width: 180px;
+    }
+
+    /* Extra large device */
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .user_head .head_right input {
+        width: 140px;
+    }
+
+    .common-form-input input {
+        width: 240px;
+    }
+
+    .main_topup_order .topup_order_right input {
+        width: 180px;
+    }
+
+    .topup_order_table .topup_modal_all {
+        transform: translateY(20%);
+        -webkit-transform: translateY(20%);
+        -moz-transform: translateY(20%);
+        -ms-transform: translateY(20%);
+        -o-transform: translateY(20%);
+}
+    
+
+    /* Large device */
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .user_head .head_right input {
+        width: 140px;
+    }
+
+    .common-form-input input {
+        width: 212px;
+    }
+
+    .main_topup_order .topup_order_right {
+        margin-top: 8px;
+    }
+
+    .main_topup_order .topup_order_right input {
+        width: 140px;
+    }
+
+    .main_topup_order .topup_order_right select {
+        width: 120px;
+    }
+
+    /* Medium device */
+}
+
+@media (max-width: 991.98px) {
+    .sidenav .nav-inner {
+        display: none;
+    }
+
+    .sidenav .main-content {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .main-content .dashboard-inner-nav {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .dashboard-inner-nav .mobile-hidden-bar {
+        display: none;
+    }
+
+   .dashboard-inner-nav {
+        padding: 4px 8px;
+    }
+
+    #mobile-menu {
+        display: block;
+    }
+
+    .common-table-prnt {
+        overflow-x: scroll;
+    }
+
+    .common-table-child table {
+        min-width: 1200px;
+    }
+
+    .admin_main_list .thead_icon,
+    .product_table .head_icon {
+        display: none;
+    }
+
+    .dashboard-inner-content .ex-sm-d {
+        margin-top: 4px;
+    }
+
+    .pack-scroll {
+        overflow-x: scroll;
+    }
+
+    .package-common-scroll {
+        width: 800px;
+    }
+
+    /* Medium common device */
+}
+
+@media (min-width: 381px) and (max-width: 575.98px) {
+    #mobile-menu .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+        --bs-offcanvas-width: 310px;
+    }
+
+    .common-form {
+        margin: 40px 24px;
+    }
+
+    .heading .left .update-rate input {
+        width: 140px;
+    }
+
+    /* Small device */
+}
+
+@media (max-width: 767.98px) {
+    .table-btm .pages-serial .in-flex {
+        gap: 2px;
+    }
+
+    .table-btm .text a {
+        font-size: 12px;
+        display: inline-flex;
+        align-items: center;
+        gap: 2px;
+    }
+
+    .table-btm .pages-serial span {
+        padding: 1px;
+    }
+
+    .table-btm .page_list {
+        padding-left: 0;
+        text-align: end;
+        
+    }
+
+    .table-btm .page_list .l-page {
+        display: none;
+    }
+
+    .graph-main .ex-sm-d {
+        margin-top: 12px;
+    }
+
+    .topup_order_table .topup_modal_all {
+        transform: translateY(35%);
+        -webkit-transform: translateY(35%);
+        -moz-transform: translateY(35%);
+        -ms-transform: translateY(35%);
+        -o-transform: translateY(35%);
+}
+}
+
+@media (max-width: 575.98px) {
+    .scene {
+        width: 400px;
+    }
+
+    .carousel__cell {
+        width: 400px;
+        height: 85%;
+        left: 42px;
+        top: 40px;
+        line-height: 25px;
+        font-size: 19px;
+    }
+
+    .ressMain {
+        margin-left: -272px;
+    }
+
+    .ress {
+        height: 28px;
+        width: 96px;
+    }
+
+    .ress p {
+        font-size: 14px;
+    }
+
+    .ress img {
+        height: 23px;
+        border-radius: 15px;
+    }
+
+    .mobile-menu-bar i {
+        font-size: 22px !important;
+    }
+
+    .user_table_bottom {
+        padding: 4px 2px;
+    }
+
+    .topup_table_bottom {
+        padding: 4px 2px;
+    }
+
+    .product_table tbody tr td img {
+        width: 40px;
+    }
+
+    .user-detail-content {
+        padding: 12px 8px;
+    }
+
+    .content-area .count {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .user-detail-content .icon {
+        height: 32px;
+        width: 32px;
+        line-height: 32px;
+    }
+
+    .order-graph .graph-heading {
+        padding: 10px 8px;
+    }
+
+    .graph-main .ex-sm-d {
+        margin-top: 8px;
+    }
+
+    .order-graph .graph-heading .days p .day {
+        width: 40px;
+    }
+
+    .order-graph .graph-heading .heading h4 {
+        font-size: 18px;
+    }
+
+    .order-graph .main-chart {
+        padding: 4px 8px 8px;
+    }
+
+    .performance-main .performance-inner {
+        padding: 8px 6px;
+    }
+
+    .performance-main .performance-inner h6, 
+    .performance-main .performance-inner p {
+        font-size: 12px;
+    }
+
+    .performance-main .performance-inner p span {
+        font-size: 14px;
+    }
+
+    .user_head .head_right input {
+        width: 140px;
+    }
+
+    .user_head .row {
+        display: block !important;
+    }
+
+    .user_head .t-end {
+        margin-top: 8px;
+    }
+
+    .admin_form_detail {
+        display: block;
+    }
+
+    .common-form-input {
+        width: 100%;
+    }
+
+    .common-form-input input {
+        width: 100% !important;
+    }
+
+    .common-form label {
+        font: 600 15px/1.3 'Inter', sans-serif;
+    }
+
+    .order_part_head .te-end {
+        margin-top: 8px;
+    }
+
+    .sell_part_head .t-end {
+        margin-top: 8px;
+    }
+
+    .autometic_add_walet .left_part a {
+        margin-top: 8px;
+        margin-left: 0;
+    }
+
+    .autometic_add_walet .right_part input {
+        width: 140px;
+    }
+
+    .main_topup_order .topup_order_right {
+        display: block;
+        margin-top: 8px;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .main_topup_order .topup_order_right input {
+        width: 90%;
+        margin-bottom: 6px;
+    }
+
+    .main_topup_order .topup_order_right select {
+        width: 90%;
+        margin-bottom: 4px;
+    }
+
+    .setting-icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .setting-icon .icon-btn i {
+        font-size: 19px !important;
+    }
+
+    /* Small common device */
+}
+
+@media (max-width: 380.98px) {
+    #mobile-menu .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+        --bs-offcanvas-width: 260px;
+    }
+
+    .main-content .dashboard-inner-nav {
+        padding: 8px 10px;
+    }
+
+    .user-menu .user-main-menu ul li a {
+        font: 500 14px/1.3 'Inter', sans-serif;
+    }
+
+    .user-content .search-bar input {
+        width: 128px;
+        height: 28px;
+        padding-left: 24px;
+    }
+
+    .user-content .search-bar i {
+        font-size: 14px !important;
+        left: 4px;
+    }
+
+    .user-menu {
+        margin-left: 8px;
+    }
+
+    .user-menu .user-img img {
+        height: 32px;
+        width: 32px;
+    }
+
+    .table-btm .pages-serial {
+        gap: 2px;
+    }
+
+    .table-btm .blank-input {
+        margin-left: 6px;
+    }
+
+    .table-btm .blank-input input {
+        width: 52px;
+    }
+
+    .user-detail-content .icon {
+        height: 28px;
+        width: 28px;
+        line-height: 28px;
+    }
+
+    .user-detail-content .icon i {
+        font-size: 12px;
+    }
+
+    .user_head {
+        padding: 16px 0px 12px;
+    }
+
+    .common-form {
+        margin: 24px 12px;
+    }
+
+    .heading .left .update-rate input {
+        width: 120px;
+    }
+
+    .heading .left {
+        gap: 4px;
+    }
+
+    .heading .left .left-gap {
+        margin-left: 0;
+    }
+
+}
